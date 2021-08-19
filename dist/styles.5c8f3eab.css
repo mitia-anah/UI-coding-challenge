@@ -1,8 +1,46 @@
-.container h1 {
-  color: green;
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  margin: 0;
 }
-.container__text {
-  color: blue;
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+.masthead {
+  background-color: #f5f6f8;
+  text-align: center;
+  margin-block-start: -23px;
+}
+.masthead .header_title {
+  padding: 2rem;
+  padding-bottom: 0;
+}
+.masthead .header_navigation {
+  max-width: 90%;
+  margin: auto;
+}
+.masthead .header_navigation .navigation_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.vpn_container {
+  padding: 1rem;
+}
+.vpn_container .vpn_content .vpn_first-content {
+  text-align: center;
 }
 
 /*# sourceMappingURL=/styles.5c8f3eab.css.map */

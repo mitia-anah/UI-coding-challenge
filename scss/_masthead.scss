@@ -1,0 +1,20 @@
+.masthead {
+  background-color: #f5f6f8;
+  text-align: center;
+  margin-block-start: -23px;
+
+  .header_title {
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+  .header_navigation {
+    max-width: 90%;
+    margin: auto;
+    .navigation_list {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1.5rem;
+    }
+  }
+}
